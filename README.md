@@ -27,4 +27,6 @@ There are some issues with the data, namely:
 
 The program used was Python 3.7.7 with the main packages used being numpy, pandas, matplotlib, seaborn and scikit-learn; occasionally, collections, statsmodels, and nltk were also used.
 
-## Results
+## Results: first part (project1.ipynb)
+
+
