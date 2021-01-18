@@ -2,7 +2,7 @@
 
 ## Description
 
-Our client, BlueBerry Winery, a start-up wine maker from Portugal, have approached CODE Analytics to help them build a Wine Quality Analytics system which can help them determine the quality of wines produced based on ingredients and composition. Moreover, they are asking for concrete suggestions for their business model since their priority is to put a proper price tag for a bottle of wine so that there is no mismatch between quality and price. Their goal is to enter the business with a good amount of analytics and research on domain knowledge. More specifically, they are asking about insights on the \textbf{Vinho Verde} variety.\
+Our client, BlueBerry Winery, a start-up wine maker from Portugal, have approached CODE Analytics to help them build a Wine Quality Analytics system which can help them determine the quality of wines produced based on ingredients and composition. Moreover, they are asking for concrete suggestions for their business model since their priority is to put a proper price tag for a bottle of wine so that there is no mismatch between quality and price. Their goal is to enter the business with a good amount of analytics and research on domain knowledge. More specifically, they are asking about insights on the \bold{Vinho Verde} variety.\
 
 In order to reach the following conclusions, three datasets have been used:\
 \bullet ((D1) from now on) A dataset with 1500 red and 5000 Vinho Verde wines, coming from [CCATR09]. For every wine, physicochemical (alcohol content, chlorides, sulphates, etc\.) and sensory (wine rating by a sommelier) data are given. \\
