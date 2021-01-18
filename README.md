@@ -25,6 +25,6 @@ There are some issues with the data, namely:
 
 ## Specifications 
 
-This is header 2.
+The program used was Python 3.7.7 with the main packages used being numpy, pandas, matplotlib, seaborn and scikit-learn; occasionally, collections, statsmodels, and nltk were also used.
 
 ## Results
