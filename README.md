@@ -1,5 +1,11 @@
 # Project: Insights on Vinho Verde Quality
 
+## File Description
+
+project1.ipynb: inference of tangible characteristics of wine from physicochemical properties
+wine_sales.ipynb: drawing conclusions from a database of wine heuristics
+wine_last.ipynb: the same, for a different database with slightly different columns.
+
 ## Description
 
 Our client, BlueBerry Winery, a start-up wine maker from Portugal, have approached CODE Analytics to help them build a Wine Quality Analytics system which can help them determine the quality of wines produced based on ingredients and composition. Moreover, they are asking for concrete suggestions for their business model since their priority is to put a proper price tag for a bottle of wine so that there is no mismatch between quality and price. Their goal is to enter the business with a good amount of analytics and research on domain knowledge. More specifically, they are asking about insights on the *Vinho Verde* variety.
@@ -30,4 +36,3 @@ The program used was Python 3.7.7 with the main packages used being numpy, panda
 ## Results: first part (project1.ipynb)
 
 
-sample...
