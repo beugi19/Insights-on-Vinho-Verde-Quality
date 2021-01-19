@@ -30,3 +30,4 @@ The program used was Python 3.7.7 with the main packages used being numpy, panda
 ## Results: first part (project1.ipynb)
 
 
+sample...
