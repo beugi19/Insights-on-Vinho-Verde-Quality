@@ -62,6 +62,7 @@ Moreover, a polynomial regression of second degree was done as well, for all win
 Therefore, it was necessary to try the machine learning techniques previously used again. The best turned out to be the random forest regression, which gave a 67,5 percent (when the wines were split in seven quality categories) or 82 percent (three categories).
 
 Summing up, these were the main take-home messages from the first part:
+
 a) Alcohol content is the most important single characteristic. A good Vinho Verde has a relatively high alcohol content.
 b) Low SO2 is an excellent quality predictor for red Vinho Verde, while low chlorides and sulphates predicts a good white Vinho Verde.
 c) Basically all of the physicochemical indicators are statistically significant, and therefore, throwing them away would be a mistake.
