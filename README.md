@@ -14,7 +14,7 @@ In order to reach the following conclusions, three datasets have been used:
 
 • ((D1) from now on) A dataset with 1500 red and 5000 Vinho Verde wines, coming from [CCATR09]. For every wine, physicochemical (alcohol content, chlorides, sulphates, etc\.) and sensory (wine rating by a sommelier) data are given. 
 
-• (D2) A dataset containing wine reviews. This dataset has informations about 150.930 wines from the entire world. 310 of those are from the Vinho Verde region (39 red and 271 white). This database does not contain physicochemical data, but only basic information about the wines, including rating and price.
+• (D2) A dataset containing wine reviews. This dataset has informations about 150.930 wines from the entire world. 310 of those are from the Vinho Verde region (39 red and 271 white). This database does not contain physicochemical data, but only basic information about the wines, including rating and price. Source: Winemag.
 
 • (D3) A second dataset containing wine reviews, very similar to the first one. 134 Vinho Verde, 13 red, 121 white. Source: https://osvinhos.blogspot.pt
 
@@ -51,19 +51,19 @@ To round up the red/white data, I calculated the main descriptive statistics of 
 2) Citric acid is more present in red wines than in white wines.
 3) The spread in residual sugar values is larger in white wines.
 4) Red wines have significantly more chlorides.
-5) White wines have significantly more $SO_2$ (both free and total).
+5) White wines have significantly more SO2 (both free and total).
 6) Red wines have more sulphates.
 7) White wine quality is slightly higher. In particular, no red wine got the best grade (9).
 
-Then, the main problem was tackled, namely the identification of characteristics that can help predict a wine's quality. First, D1 was split into three samples: low (grade $\leq$ 5), medium (grade 6 or 7) and high quality (grade 8 or 9). Descriptive statistics of these three subsamples made it clear that this classification problem would be much harder than the previous one, but that some characteristics did differ among the different wine classes, first of all alcohol content. This was made clear via a series of boxplots (shown in presentation 1), which in particular show that high-quality Vinho Verde has low density, high alcohol content, and low sulphates content. This was confirmed via a simple linear regression, which additionally showed that every indicator bar citric acid and chlorides is statistically significantly different between low and high-quality Vinho Verde ($p<0.001$).
+Then, the main problem was tackled, namely the identification of characteristics that can help predict a wine's quality. First, D1 was split into three samples: low (grade <= 5), medium (grade 6 or 7) and high quality (grade 8 or 9). Descriptive statistics of these three subsamples made it clear that this classification problem would be much harder than the previous one, but that some characteristics did differ among the different wine classes, first of all alcohol content. This was made clear via a series of boxplots (shown in presentation 1), which in particular show that high-quality Vinho Verde has low density, high alcohol content, and low sulphates content. This was confirmed via a simple linear regression, which additionally showed that every indicator bar citric acid and chlorides is statistically significantly different between low and high-quality Vinho Verde (p<0.001).
 
-Moreover, a polynomial regression of second degree was done as well, for all wines and separately for white and red ones. Two of the main results were that a red Vinho Verde with a high product of free $SO_2$ and total $SO_2$ tends to be of lower quality, while for white wines, the same is true for the product of chlorides and sulphates. However, when trying to predict a wine's rating, linear and polynomial regression get an accuracy rate of just 55 percent.
+Moreover, a polynomial regression of second degree was done as well, for all wines and separately for white and red ones. Two of the main results were that a red Vinho Verde with a high product of free SO2 and total SO2 tends to be of lower quality, while for white wines, the same is true for the product of chlorides and sulphates. However, when trying to predict a wine's rating, linear and polynomial regression get an accuracy rate of just 55 percent.
 
 Therefore, it was necessary to try the machine learning techniques previously used again. The best turned out to be the random forest regression, which gave a 67,5 percent (when the wines were split in seven quality categories) or 82 percent (three categories).
 
 Summing up, these were the main take-home messages from the first part:
 a) Alcohol content is the most important single characteristic. A good Vinho Verde has a relatively high alcohol content.
-b) Low $SO_2$ is an excellent quality predictor for red Vinho Verde, while low chlorides and sulphates predicts a good white Vinho Verde.
+b) Low SO2 is an excellent quality predictor for red Vinho Verde, while low chlorides and sulphates predicts a good white Vinho Verde.
 c) Basically all of the physicochemical indicators are statistically significant, and therefore, throwing them away would be a mistake.
 
 Other approaches I have tried that did not yield significant results:
