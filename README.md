@@ -55,6 +55,8 @@ To round up the red/white data, I calculated the main descriptive statistics of 
 6) Red wines have more sulphates.
 7) White wine quality is slightly higher. In particular, no red wine got the best grade (9).
 
+## Second part: concrete recommendations
+
 Then, the main problem was tackled, namely the identification of characteristics that can help predict a wine's quality. First, D1 was split into three samples: low (grade <= 5), medium (grade 6 or 7) and high quality (grade 8 or 9). Descriptive statistics of these three subsamples made it clear that this classification problem would be much harder than the previous one, but that some characteristics did differ among the different wine classes, first of all alcohol content. This was made clear via a series of boxplots (shown in presentation 1), which in particular show that high-quality Vinho Verde has low density, high alcohol content, and low sulphates content. This was confirmed via a simple linear regression, which additionally showed that every indicator bar citric acid and chlorides is statistically significantly different between low and high-quality Vinho Verde (p<0.001).
 
 Moreover, a polynomial regression of second degree was done as well, for all wines and separately for white and red ones. Two of the main results were that a red Vinho Verde with a high product of free SO2 and total SO2 tends to be of lower quality, while for white wines, the same is true for the product of chlorides and sulphates. However, when trying to predict a wine's rating, linear and polynomial regression get an accuracy rate of just 55 percent.
@@ -75,3 +77,15 @@ Other approaches I have tried that did not yield significant results:
 5) Univariate boxplots of red and white wines.
 6) Correlation matrix of all characteristics.
 7) Scatterplots of three characteristics (x-axis, y-axis, hue), e.g. wine content-sulphates-quality.
+
+For more concrete recommendations, involving grape variety, price tag, vineyard geographic area and winemaking techniques, I referred to databases D2 and D3. The informations that D2 gave, however, were limited to sommelier evaluation (on a scale of 0-100 instead of D1's 0-10), main grape variety, winery and designation. The latter two were almost useless since there were too many to analyze properly (47 wineries and 110 designations), making the situation even more difficult. However, a simple linear regression showed two important facts:
+
+a) Price and rating are moderately correlated (r=0.36), and for every extra grade, the winemaker can expect 1,32 Euros extra per bottle;
+
+b) All things being equal, Loureiro and Portuguese White wine are significantly cheaper.  
+
+Moreover, it was possible to split the wine dataset into white and red wines. A linear regression with a dummy variable added to represent wine color resulted in a r of 0.46 and an approximate formula where price=-100.7862+1.3153*quality-1.7362*IsWhite, where the quality is given on a 0-100 scale and the dummy variable IsWhite is 0 if the wine is white and 1 otherwise. However, the average red Vinho Verde is cheaper than the white variety! This is mainly due to the fact that red Vinho Verde is consistently rated lower than its white counterpart. 
+
+In order to get more concrete insights, I turned my focus to database D3. Here, there are some more informations (all wine varieties, alcohol percentage, whether the wine is DOC or not) but the main drawback is that there are just price categories instead of a precise value in Euros, which might make it more difficult to infer parameters. However, when a linear regression was done, the result was that apart from sommelier evaluation, none of the other quantitative parameters are statistically significant in order to infer the price. This may be due, in addition to the price brackets mentioned earlier, to the fact that D3 is the smallest database of the ones considered and therefore the confidence intervals for the parameters are quite big. Moreover, a pair of boxplots for DOC and non-DOC wines showed that, apart from a couple high-end wines which were all DOC, a wine being DOC does not automatically mean it costs more. 
+
+Finally, Natural Language Processing was tried in order to see whether it is possible to infer the wine's quality from its description only. Results were inferior to the other methods. The probable reason is that, while low-quality wines have a clearly negative description, the difference between a description of a medium-quality and a high-quality wine is much more nuanced.
