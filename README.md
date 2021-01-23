@@ -55,7 +55,7 @@ To round up the red/white data, I calculated the main descriptive statistics of 
 6) Red wines have more sulphates.
 7) White wine quality is slightly higher. In particular, no red wine got the best grade (9).
 
-## Second part: concrete recommendations (wines_full.ipynb and wines_last.ipynb)
+## Second part: concrete recommendations (wine_sales.ipynb and wine_last.ipynb)
 
 Then, the main problem was tackled, namely the identification of characteristics that can help predict a wine's quality. First, D1 was split into three samples: low (grade <= 5), medium (grade 6 or 7) and high quality (grade 8 or 9). Descriptive statistics of these three subsamples made it clear that this classification problem would be much harder than the previous one, but that some characteristics did differ among the different wine classes, first of all alcohol content. This was made clear via a series of boxplots (shown in presentation 1), which in particular show that high-quality Vinho Verde has low density, high alcohol content, and low sulphates content. This was confirmed via a simple linear regression, which additionally showed that every indicator bar citric acid and chlorides is statistically significantly different between low and high-quality Vinho Verde (p<0.001).
 
