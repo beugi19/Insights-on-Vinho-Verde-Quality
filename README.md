@@ -92,4 +92,10 @@ Finally, Natural Language Processing was tried in order to see whether it is pos
 
 ## Conclusion
 
-
+From all these considerations, I can infer the following conclusions:
+a) I strongly suggest BlueBerry Winery to produce white wine only. Red wine is untypical of Vinho Verde and is therefore often poorly rated by sommeliers, especially outside of Portugal;
+b) I have no suggestion regarding grape variety. While it is the case that Alvarinho wine costs more than Portuguese White, this is partly because Alvarinho yield is poorer and it needs more care than other varieties. Loureiro has higher yield and can be regarded as a safe choice. The grape variety chosen should depend on terrain, climate, workers' skill level, etc.;
+c) I strongly suggest BlueBerry Winery does not apply for a DOC label, except for its wines that could command a high price (>20 Euros);
+d) I remind BlueBerry Winery that good sommelier ratings are extremely important in order to be able to command a higher price.
+Every extra grade point can mean an extra 1.32 Euro per bottle, thus a little extra care in winemaking and good relations with trusted sommeliers can go a long way;
+e) I strongly suggest BlueBerry Winery to do a frequent and thorough chemical analysis of their wines, since chemical composition is an excellent predictor of measured wine quality.
