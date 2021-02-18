@@ -117,3 +117,8 @@ d) I remind BlueBerry Winery that good sommelier ratings are extremely important
 Every extra grade point can mean an extra 1.32 Euro per bottle, thus a little extra care in winemaking and good relations with trusted sommeliers can go a long way;
 
 e) I strongly suggest BlueBerry Winery to do a frequent and thorough chemical analysis of their wines, since chemical composition is an excellent predictor of measured wine quality.
+
+## Presentations of the main results
+
+[First part](https://docs.google.com/presentation/d/1jA991OPIr3LpTEYlg2yuleDafStAfzn5hPYxjuDn3tY/edit#slide=id.p)
+[Second part](https://docs.google.com/presentation/d/1shQ-cTU4gDIn04tDmi160t53C_2WLe2JQwKc_9YmcAs/edit#slide=id.p)
