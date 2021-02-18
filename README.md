@@ -1,14 +1,20 @@
 # Project: Insights on Vinho Verde Quality
 
-## File Description
-
-project1.ipynb: inference of tangible characteristics of wine from physicochemical properties
-wine_sales.ipynb: drawing conclusions from a database of wine heuristics
-wine_last.ipynb: the same, for a different database with slightly different columns.
-
 ## Description
 
 Our client, BlueBerry Winery, a start-up wine maker from Portugal, have approached CODE Analytics to help them build a Wine Quality Analytics system which can help them determine the quality of wines produced based on ingredients and composition. Moreover, they are asking for concrete suggestions for their business model since their priority is to put a proper price tag for a bottle of wine so that there is no mismatch between quality and price. Their goal is to enter the business with a good amount of analytics and research on domain knowledge. More specifically, they are asking about insights on the *Vinho Verde* variety.
+
+## Brief Sector Overview
+
+Wine in Portugal has an long and time-honored history. There is evidence of winemaking from 2000 BC! After the Reconquista, the particularly favorable soil and climate and the predominance of some unique grape varieties made viticulture gain gradual economic relevance.
+
+Nowadays, Portugal has a long tradition of production and export of wines. Regionally, it can feature eleven different winemaking regions, the most well-known of which are Douro and Vinho Verde. The number of indigenous grape varieties (over 500) has already puzzled more than one wine expert. 
+
+Outside of Portugal, the Lusitan nation is most known for rosé (Lancers, Mateus) and fortified wines (Port, Madeira). Together, these two categories make up 70% of Portugal's wine exports. 
+
+One of the potential problems with Portuguese winemaking is that it is strongly linked to tourism: increasing tourist inflows drives further growth of the winemaking sector since most tourists are willing to consume local wine, one of Portugal's most characteristic products. Therefore, the current pandemic risks to put several Portuguese winemaking companies on thin ice, with an on-trade sales volume that was 33% inferior in 2020 with respect to 2019. However, this is supposed to stabilise in the upcoming years.
+
+## Datasets
 
 In order to reach the following conclusions, three datasets have been used:
 
@@ -28,6 +34,13 @@ There are some issues with the data, namely:
 
 4) D2 and D3 do not contain any information about physicochemical characteristics of the wine (apart from alcohol content, which is present in D3). 
 
+## File Description
+
+project1.ipynb: inference of tangible characteristics of wine from physicochemical properties
+
+wine_sales.ipynb: drawing conclusions from a database of wine heuristics
+
+wine_last.ipynb: the same, for a different database with slightly different columns.
 
 ## Specifications 
 
