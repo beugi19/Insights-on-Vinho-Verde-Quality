@@ -38,7 +38,7 @@ There are some issues with the data, namely:
 
 [First part](https://github.com/beugi19/Insights-on-Vinho-Verde-Quality/blob/main/project1.ipynb): inference of tangible characteristics of wine from physicochemical properties
 
-wine_sales.ipynb: drawing conclusions from a database of wine heuristics
+[Second part](https://github.com/beugi19/Insights-on-Vinho-Verde-Quality/blob/main/wine_sales.ipynb): drawing conclusions from a database of wine heuristics
 
 wine_last.ipynb: the same, for a different database with slightly different columns.
 
