@@ -40,7 +40,7 @@ There are some issues with the data, namely:
 
 [Second part](https://github.com/beugi19/Insights-on-Vinho-Verde-Quality/blob/main/wine_sales.ipynb): drawing conclusions from a database of wine heuristics
 
-wine_last.ipynb: the same, for a different database with slightly different columns.
+[Third part](https://github.com/beugi19/Insights-on-Vinho-Verde-Quality/blob/main/wine_last.ipynb): the same, for a different database with slightly different columns.
 
 ## Specifications 
 
